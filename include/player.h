@@ -7,6 +7,7 @@ typedef struct{
     int attack;
     int exp;
     int level;
+    int gold;
     int x;
     int y;
 } player;
@@ -18,6 +19,7 @@ void player_move(char key);
 void player_info();
 int is_death();
 int destroy_player();
+int collect();
 
 
 #endif

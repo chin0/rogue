@@ -12,6 +12,7 @@ CMakeFiles/rogue.dir/src/inventory.c.o: ../src/inventory.c
 CMakeFiles/rogue.dir/src/item.c.o: ../src/item.c
 
 CMakeFiles/rogue.dir/src/main.c.o: ../include/map.h
+CMakeFiles/rogue.dir/src/main.c.o: ../include/monster.h
 CMakeFiles/rogue.dir/src/main.c.o: ../include/player.h
 CMakeFiles/rogue.dir/src/main.c.o: ../include/util.h
 CMakeFiles/rogue.dir/src/main.c.o: ../src/main.c
@@ -21,6 +22,11 @@ CMakeFiles/rogue.dir/src/map.c.o: ../include/map.h
 CMakeFiles/rogue.dir/src/map.c.o: ../include/util.h
 CMakeFiles/rogue.dir/src/map.c.o: ../src/map.c
 
+CMakeFiles/rogue.dir/src/monster.c.o: ../include/findpath.h
+CMakeFiles/rogue.dir/src/monster.c.o: ../include/map.h
+CMakeFiles/rogue.dir/src/monster.c.o: ../include/monster.h
+CMakeFiles/rogue.dir/src/monster.c.o: ../include/player.h
+CMakeFiles/rogue.dir/src/monster.c.o: ../include/util.h
 CMakeFiles/rogue.dir/src/monster.c.o: ../src/monster.c
 
 CMakeFiles/rogue.dir/src/player.c.o: ../include/map.h

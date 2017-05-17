@@ -121,6 +121,7 @@ int get_first_door(int room)
 }
 void drawRoom(room _room)
 {
+    int gold_x,gold_y;
     int cur_id      = _room.id;
     int cur_x       = _room.x;
     int cur_y       = _room.y;
@@ -142,11 +143,15 @@ void drawRoom(room _room)
 
             if(j == cur_x || i == cur_y || j == cur_x + cur_width - 1
                || i == cur_y + cur_height - 1)
-                maps[i][j] = 3;
+                maps[i][j] = WALL;
             else
-                maps[i][j] = 4;
+                maps[i][j] = ROOM_TILE;
         }
     }
+    gold_x = _room.x + get_random_number(1, _room.width-2);
+    gold_y = _room.y + get_random_number(1, _room.height-2);
+
+    maps[gold_y][gold_x] = GOLD;
 
     for(int i = 0; i < 4; i++)
     {
@@ -174,6 +179,12 @@ void generate_map() {
         if (door_info[i].x && door_info[i].y)
             findpath(i);
     }
+
+    const room* exit_room = room_array[get_random_number(0,8)];
+    int _exit_x = exit_room->x + get_random_number(1, exit_room->width-2);
+    int _exit_y = exit_room->y + get_random_number(1, exit_room->height-2);
+
+    maps[_exit_y][_exit_x] = EXIT;
 }
 
 void print_map()
@@ -184,10 +195,10 @@ void print_map()
                 case PLAYER:
                     printf("@");
                     break;
-                case TUNNEL:
+                case DOOR:
                     printf("\u2592");
                     break;
-                case DOOR:
+                case TUNNEL:
                     printf("\u2591");
                     break;
                 case WALL:
@@ -195,6 +206,33 @@ void print_map()
                     break;
                 case ROOM_TILE:
                     printf("\u2593");
+                    break;
+                case MON_MEGUMI:
+                    printf("M");
+                    break;
+                case MON_ERIRI:
+                    printf("E");
+                    break;
+                case MON_UTAHA:
+                    printf("U");
+                    break;
+                case MON_MITCHIRU:
+                    printf("m");
+                    break;
+                case MON_CHINO:
+                    printf("C");
+                    break;
+                case MON_RIKKA:
+                    printf("R");
+                    break;
+                case MON_TOMORI:
+                    printf("T");
+                    break;
+                case GOLD:
+                    printf("%%");
+                    break;
+                case EXIT:
+                    printf("^");
                     break;
                 default:
                     printf(" ");

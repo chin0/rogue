@@ -14,6 +14,8 @@
 util.h
 /home/kafuuchin0/coding/rogue/include/util.h
 
+/home/kafuuchin0/coding/rogue/include/monster.h
+
 /home/kafuuchin0/coding/rogue/include/player.h
 
 /home/kafuuchin0/coding/rogue/include/util.h
@@ -63,6 +65,8 @@ time.h
 /home/kafuuchin0/coding/rogue/include/map.h
 ../include/player.h
 /home/kafuuchin0/coding/rogue/include/player.h
+../include/monster.h
+/home/kafuuchin0/coding/rogue/include/monster.h
 
 /home/kafuuchin0/coding/rogue/src/map.c
 ../include/map.h
@@ -71,6 +75,14 @@ time.h
 /home/kafuuchin0/coding/rogue/include/findpath.h
 
 /home/kafuuchin0/coding/rogue/src/monster.c
+../include/monster.h
+/home/kafuuchin0/coding/rogue/include/monster.h
+../include/map.h
+/home/kafuuchin0/coding/rogue/include/map.h
+../include/player.h
+/home/kafuuchin0/coding/rogue/include/player.h
+../include/findpath.h
+/home/kafuuchin0/coding/rogue/include/findpath.h
 
 /home/kafuuchin0/coding/rogue/src/player.c
 ../include/map.h

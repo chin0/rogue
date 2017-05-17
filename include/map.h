@@ -16,7 +16,16 @@ enum {
     DOOR,
     WALL,
     ROOM_TILE,
-    PLAYER
+    PLAYER,
+    MON_MEGUMI,
+    MON_UTAHA,
+    MON_ERIRI,
+    MON_MITCHIRU,
+    MON_CHINO,
+    MON_TOMORI,
+    MON_RIKKA,
+    GOLD,
+    EXIT
 };
 
 typedef struct {

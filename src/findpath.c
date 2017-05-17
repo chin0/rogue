@@ -129,7 +129,7 @@ int pq_isEmpty(PriorityQueue* PQ)
     return (PQ->UsedSize == 0);
 }
 
-int huristic(int x, int y, door door)
+static int huristic(int x, int y, door door)
 {
     //맨해튼거리
     return abs(x - door.x) + abs(y - door.y);

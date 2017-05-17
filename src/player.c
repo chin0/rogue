@@ -6,7 +6,7 @@
 #define KEY_UP 'j'
 #define KEY_DOWN 'k'
 
-int overwritten = 0;
+static char overwritten = 0;
 player _player;
 
 void player_init(int hp,int hungry,
@@ -17,7 +17,7 @@ void player_init(int hp,int hungry,
     _player.hp     = hp;
     _player.exp    = exp;
     _player.level = 1;
-    room *_room = room_array[get_random_number(0,9)];
+    room *_room = room_array[get_random_number(0,8)];
 
     _player.x = _room->x + get_random_number(1, _room->width-2);
     _player.y = _room->y + get_random_number(1, _room->height-2);
@@ -31,12 +31,27 @@ void player_info()
     printf("[Level]: %d\t[hp]: %d,[hungry]: %d,[exp]: %d, [atr]: %d\n",
            _player.level,_player.hp,_player.hungry,_player.exp,_player.attack);
 }
-int is_block(int block)
+static int is_block(int block)
 {
-    return (block == WALL || block == 0);
+    return ((block >= MON_MEGUMI && block < GOLD)|| block == WALL || block == 0);
 }
+
+int in_exit = 0;
+int collect()
+{
+    if(maps[_player.y][_player.x] == GOLD){
+        int collected_gold = get_random_number(1,10);
+        _player.gold += collected_gold;
+        printf("you collect %d golds!(press any key..)\n",collected_gold);
+        getch();
+        return 1;
+    }
+    return 0;
+}
+
 void player_move(char key)
 {
+    in_exit = 0;
     maps[_player.y][_player.x] = overwritten;
 
     switch(key){
@@ -65,6 +80,10 @@ void player_move(char key)
             }
             break;
     }
+    if(collect())
+        overwritten = ROOM_TILE;
+    if(maps[_player.y][_player.x] == EXIT)
+        in_exit = 1;
     maps[_player.y][_player.x] = PLAYER;
 }
 int player_death()

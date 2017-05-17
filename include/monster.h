@@ -3,14 +3,27 @@
 
 typedef struct
 {
+    int x;
+    int y;
+    int f;
+}movement;
+typedef struct
+{
+    int x;
+    int y;
     int hp;
     int attack;
     int att_rate;
     int drop_exp;
-}monster;
+    int is_chase;
+    int drop_gold;
+    char *name;
+    char map_initialis;
+} monster;
 
-int move(monster *mon);
+extern int in_exit;
+void create_monster();
+int monster_move(const monster *mon);
 int attack();
-void create_monster(int hp, int attack,int att_rate,char* name);
-int is_player_near(int range); //정해진범위안에 플레이어가 있는가?
+int is_player_near(int index,int range); //정해진범위안에 플레이어가 있는가?
 #endif

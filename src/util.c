@@ -17,3 +17,10 @@ int get_random_number(int min,int max)
 
     return ret;
 }
+char getch()
+{
+    system("/bin/stty raw");
+    char a = getchar();
+    system("/bin/stty cooked");
+    return a;
+}

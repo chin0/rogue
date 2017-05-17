@@ -1,22 +1,47 @@
+#include <unistd.h>
+#include <time.h>
 #include "../include/util.h"
 #include "../include/map.h"
+#include "../include/player.h"
+#define SET_TERM_SIZE(x,y) system("mode con:cols="#x " lines="#y)
 
 extern int maps[][MAX_X];
 
+char getch()
+{
+    system("/bin/stty raw");
+    char a = getchar();
+    system("/bin/stty cooked");
+    return a;
+}
+
 int main(void)
 {
-    printf("press any key to generate map!!(q is quit..)");
+    char input;
+    generate_map();
+    player_init(12,20,3,0);
+    while(1)
+    {
+        system("clear");
+        player_info();
+#ifdef DEBUG
+        printf("[debug]_player.x:%d, _player.y:%d\n",_player.x,_player.y);
+#endif
+        print_map();
+        input = getch();
 
-    for(int i = 0; i < 9; i++)
-        generate_map();
+        if(input == 'q'){
+            system("clear");
+            printf("really?? (y/n): ");
+            input = getch();
+            if(input == 'y'){
+                printf("bye!\n");
+                break;
 
-    for(int i = 0; i < MAX_Y; i++){
-        for(int j = 0; j < MAX_X; j++){
-            if(maps[i][j])
-                printf("#");
-            else
-                printf(" ");
+            }
+        } else {
+            player_move(input);
         }
-        printf("\n");
     }
+    return 0;
 }

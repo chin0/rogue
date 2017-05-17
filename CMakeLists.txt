@@ -16,6 +16,6 @@ set(SOURCE_FILES
         src/map.c
         src/monster.c
         src/player.c
-        src/util.c)
+        src/util.c src/findpath.c include/findpath.h include/vector.h src/vector.c)
 
 add_executable(rogue ${SOURCE_FILES})

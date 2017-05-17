@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="rogue"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kafuuchin0/coding/rogue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kafuuchin0/coding/rogue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kafuuchin0/coding/rogue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rogue">
+				<Option output="/home/kafuuchin0/coding/rogue/cmake-build-debug/rogue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kafuuchin0/coding/rogue/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 rogue"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rogue/fast">
+				<Option output="/home/kafuuchin0/coding/rogue/cmake-build-debug/rogue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kafuuchin0/coding/rogue/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 rogue/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kafuuchin0/coding/rogue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kafuuchin0/coding/rogue/include/findpath.h">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/include/inventory.h">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/include/item.h">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/include/map.h">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/include/monster.h">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/include/player.h">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/include/util.h">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/include/vector.h">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/src/findpath.c">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/src/inventory.c">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/src/item.c">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/src/main.c">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/src/map.c">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/src/monster.c">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/src/player.c">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/src/util.c">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/src/vector.c">
+			<Option target="rogue"/>
+		</Unit>
+		<Unit filename="/home/kafuuchin0/coding/rogue/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

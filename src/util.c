@@ -2,14 +2,18 @@
 
 int get_random_number(int min,int max)
 {
-    int ret;
+    unsigned int ret;
 
-    srand(time(NULL));
+    int fd = open("/dev/urandom",O_RDONLY);
 
-    ret = rand() % max;
 
-    while(ret < min || ret > max)
-        ret = rand() % max;
+    read(fd,&ret,sizeof(unsigned int));
+    ret = ret % max;
+
+    while(ret < min || ret > max){
+        read(fd,&ret,sizeof(unsigned int));
+        ret = ret % max;
+    }
 
     return ret;
 }

@@ -20,9 +20,9 @@ rogue는 절차적 생성이라는 방법을 사용해서 매번 맵을 다르�
 ### 프로젝트 구조
 ```
 include/
-- findpath.h - 길찾기알고리즘&우선순위큐
+- findpath.h - 길찾기알고리즘&우선순위큐이
 - inventory.h - 인벤토리
-- item.h - 아이템 데치터
+- item.h - 아이템 데이터
 - map.h - 맵 자동생성 & 업데이트
 - monster.h - 몬스터 인공지능,
 - util.h - 기타 쓸만한 함수들

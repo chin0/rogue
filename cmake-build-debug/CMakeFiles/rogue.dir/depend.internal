@@ -5,10 +5,7 @@ CMakeFiles/rogue.dir/src/findpath.c.o
  /home/kafuuchin0/coding/rogue/include/findpath.h
  /home/kafuuchin0/coding/rogue/include/map.h
  /home/kafuuchin0/coding/rogue/include/util.h
- /home/kafuuchin0/coding/rogue/include/vector.h
  /home/kafuuchin0/coding/rogue/src/findpath.c
-CMakeFiles/rogue.dir/src/inventory.c.o
- /home/kafuuchin0/coding/rogue/src/inventory.c
 CMakeFiles/rogue.dir/src/item.c.o
  /home/kafuuchin0/coding/rogue/src/item.c
 CMakeFiles/rogue.dir/src/main.c.o
@@ -34,12 +31,12 @@ CMakeFiles/rogue.dir/src/player.c.o
  /home/kafuuchin0/coding/rogue/include/player.h
  /home/kafuuchin0/coding/rogue/include/util.h
  /home/kafuuchin0/coding/rogue/src/player.c
+CMakeFiles/rogue.dir/src/scoreboard.c.o
+ /home/kafuuchin0/coding/rogue/include/scoreboard.h
+ /home/kafuuchin0/coding/rogue/src/scoreboard.c
 CMakeFiles/rogue.dir/src/util.c.o
  /home/kafuuchin0/coding/rogue/include/util.h
  /home/kafuuchin0/coding/rogue/src/util.c
-CMakeFiles/rogue.dir/src/vector.c.o
- /home/kafuuchin0/coding/rogue/include/vector.h
- /home/kafuuchin0/coding/rogue/src/vector.c
 CMakeFiles/rogue.dir/src/view.c.o
  /home/kafuuchin0/coding/rogue/include/map.h
  /home/kafuuchin0/coding/rogue/include/monster.h

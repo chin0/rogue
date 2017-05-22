@@ -5,14 +5,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/kafuuchin0/coding/rogue/src/findpath.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/findpath.c.o"
-  "/home/kafuuchin0/coding/rogue/src/inventory.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/inventory.c.o"
   "/home/kafuuchin0/coding/rogue/src/item.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/item.c.o"
   "/home/kafuuchin0/coding/rogue/src/main.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/main.c.o"
   "/home/kafuuchin0/coding/rogue/src/map.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/map.c.o"
   "/home/kafuuchin0/coding/rogue/src/monster.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/monster.c.o"
   "/home/kafuuchin0/coding/rogue/src/player.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/player.c.o"
+  "/home/kafuuchin0/coding/rogue/src/scoreboard.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/scoreboard.c.o"
   "/home/kafuuchin0/coding/rogue/src/util.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/util.c.o"
-  "/home/kafuuchin0/coding/rogue/src/vector.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/vector.c.o"
   "/home/kafuuchin0/coding/rogue/src/view.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/view.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

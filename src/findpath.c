@@ -6,7 +6,6 @@
 #include <math.h>
 #include "../include/map.h"
 #include "../include/findpath.h"
-#include "../include/vector.h"
 
 
 PriorityQueue* pq_create(int init_size)

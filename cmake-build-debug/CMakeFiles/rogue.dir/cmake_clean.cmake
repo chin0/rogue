@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/rogue.dir/src/inventory.c.o"
   "CMakeFiles/rogue.dir/src/item.c.o"
   "CMakeFiles/rogue.dir/src/main.c.o"
   "CMakeFiles/rogue.dir/src/map.c.o"
@@ -7,8 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rogue.dir/src/player.c.o"
   "CMakeFiles/rogue.dir/src/util.c.o"
   "CMakeFiles/rogue.dir/src/findpath.c.o"
-  "CMakeFiles/rogue.dir/src/vector.c.o"
   "CMakeFiles/rogue.dir/src/view.c.o"
+  "CMakeFiles/rogue.dir/src/scoreboard.c.o"
   "rogue.pdb"
   "rogue"
 )

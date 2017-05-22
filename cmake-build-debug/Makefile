@@ -150,33 +150,6 @@ src/findpath.c.s:
 	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/findpath.c.s
 .PHONY : src/findpath.c.s
 
-src/inventory.o: src/inventory.c.o
-
-.PHONY : src/inventory.o
-
-# target to build an object file
-src/inventory.c.o:
-	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/inventory.c.o
-.PHONY : src/inventory.c.o
-
-src/inventory.i: src/inventory.c.i
-
-.PHONY : src/inventory.i
-
-# target to preprocess a source file
-src/inventory.c.i:
-	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/inventory.c.i
-.PHONY : src/inventory.c.i
-
-src/inventory.s: src/inventory.c.s
-
-.PHONY : src/inventory.s
-
-# target to generate assembly for a file
-src/inventory.c.s:
-	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/inventory.c.s
-.PHONY : src/inventory.c.s
-
 src/item.o: src/item.c.o
 
 .PHONY : src/item.o
@@ -312,6 +285,33 @@ src/player.c.s:
 	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/player.c.s
 .PHONY : src/player.c.s
 
+src/scoreboard.o: src/scoreboard.c.o
+
+.PHONY : src/scoreboard.o
+
+# target to build an object file
+src/scoreboard.c.o:
+	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/scoreboard.c.o
+.PHONY : src/scoreboard.c.o
+
+src/scoreboard.i: src/scoreboard.c.i
+
+.PHONY : src/scoreboard.i
+
+# target to preprocess a source file
+src/scoreboard.c.i:
+	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/scoreboard.c.i
+.PHONY : src/scoreboard.c.i
+
+src/scoreboard.s: src/scoreboard.c.s
+
+.PHONY : src/scoreboard.s
+
+# target to generate assembly for a file
+src/scoreboard.c.s:
+	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/scoreboard.c.s
+.PHONY : src/scoreboard.c.s
+
 src/util.o: src/util.c.o
 
 .PHONY : src/util.o
@@ -338,33 +338,6 @@ src/util.s: src/util.c.s
 src/util.c.s:
 	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/util.c.s
 .PHONY : src/util.c.s
-
-src/vector.o: src/vector.c.o
-
-.PHONY : src/vector.o
-
-# target to build an object file
-src/vector.c.o:
-	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/vector.c.o
-.PHONY : src/vector.c.o
-
-src/vector.i: src/vector.c.i
-
-.PHONY : src/vector.i
-
-# target to preprocess a source file
-src/vector.c.i:
-	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/vector.c.i
-.PHONY : src/vector.c.i
-
-src/vector.s: src/vector.c.s
-
-.PHONY : src/vector.s
-
-# target to generate assembly for a file
-src/vector.c.s:
-	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/vector.c.s
-.PHONY : src/vector.c.s
 
 src/view.o: src/view.c.o
 
@@ -405,9 +378,6 @@ help:
 	@echo "... src/findpath.o"
 	@echo "... src/findpath.i"
 	@echo "... src/findpath.s"
-	@echo "... src/inventory.o"
-	@echo "... src/inventory.i"
-	@echo "... src/inventory.s"
 	@echo "... src/item.o"
 	@echo "... src/item.i"
 	@echo "... src/item.s"
@@ -423,12 +393,12 @@ help:
 	@echo "... src/player.o"
 	@echo "... src/player.i"
 	@echo "... src/player.s"
+	@echo "... src/scoreboard.o"
+	@echo "... src/scoreboard.i"
+	@echo "... src/scoreboard.s"
 	@echo "... src/util.o"
 	@echo "... src/util.i"
 	@echo "... src/util.s"
-	@echo "... src/vector.o"
-	@echo "... src/vector.i"
-	@echo "... src/vector.s"
 	@echo "... src/view.o"
 	@echo "... src/view.i"
 	@echo "... src/view.s"

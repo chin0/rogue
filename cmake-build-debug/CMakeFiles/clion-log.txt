@@ -1,5 +1,4 @@
 /home/kafuuchin0/tools/clion-2017.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kafuuchin0/coding/rogue
--- Found Curses: /usr/lib64/libcurses.so  
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/kafuuchin0/coding/rogue/cmake-build-debug

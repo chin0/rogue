@@ -57,33 +57,9 @@ include CMakeFiles/rogue.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/rogue.dir/flags.make
 
-CMakeFiles/rogue.dir/src/item.c.o: CMakeFiles/rogue.dir/flags.make
-CMakeFiles/rogue.dir/src/item.c.o: ../src/item.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rogue.dir/src/item.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rogue.dir/src/item.c.o   -c /home/kafuuchin0/coding/rogue/src/item.c
-
-CMakeFiles/rogue.dir/src/item.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rogue.dir/src/item.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kafuuchin0/coding/rogue/src/item.c > CMakeFiles/rogue.dir/src/item.c.i
-
-CMakeFiles/rogue.dir/src/item.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rogue.dir/src/item.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kafuuchin0/coding/rogue/src/item.c -o CMakeFiles/rogue.dir/src/item.c.s
-
-CMakeFiles/rogue.dir/src/item.c.o.requires:
-
-.PHONY : CMakeFiles/rogue.dir/src/item.c.o.requires
-
-CMakeFiles/rogue.dir/src/item.c.o.provides: CMakeFiles/rogue.dir/src/item.c.o.requires
-	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/item.c.o.provides.build
-.PHONY : CMakeFiles/rogue.dir/src/item.c.o.provides
-
-CMakeFiles/rogue.dir/src/item.c.o.provides.build: CMakeFiles/rogue.dir/src/item.c.o
-
-
 CMakeFiles/rogue.dir/src/main.c.o: CMakeFiles/rogue.dir/flags.make
 CMakeFiles/rogue.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rogue.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rogue.dir/src/main.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rogue.dir/src/main.c.o   -c /home/kafuuchin0/coding/rogue/src/main.c
 
 CMakeFiles/rogue.dir/src/main.c.i: cmake_force
@@ -107,7 +83,7 @@ CMakeFiles/rogue.dir/src/main.c.o.provides.build: CMakeFiles/rogue.dir/src/main.
 
 CMakeFiles/rogue.dir/src/map.c.o: CMakeFiles/rogue.dir/flags.make
 CMakeFiles/rogue.dir/src/map.c.o: ../src/map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rogue.dir/src/map.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rogue.dir/src/map.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rogue.dir/src/map.c.o   -c /home/kafuuchin0/coding/rogue/src/map.c
 
 CMakeFiles/rogue.dir/src/map.c.i: cmake_force
@@ -131,7 +107,7 @@ CMakeFiles/rogue.dir/src/map.c.o.provides.build: CMakeFiles/rogue.dir/src/map.c.
 
 CMakeFiles/rogue.dir/src/monster.c.o: CMakeFiles/rogue.dir/flags.make
 CMakeFiles/rogue.dir/src/monster.c.o: ../src/monster.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rogue.dir/src/monster.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rogue.dir/src/monster.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rogue.dir/src/monster.c.o   -c /home/kafuuchin0/coding/rogue/src/monster.c
 
 CMakeFiles/rogue.dir/src/monster.c.i: cmake_force
@@ -155,7 +131,7 @@ CMakeFiles/rogue.dir/src/monster.c.o.provides.build: CMakeFiles/rogue.dir/src/mo
 
 CMakeFiles/rogue.dir/src/player.c.o: CMakeFiles/rogue.dir/flags.make
 CMakeFiles/rogue.dir/src/player.c.o: ../src/player.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rogue.dir/src/player.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rogue.dir/src/player.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rogue.dir/src/player.c.o   -c /home/kafuuchin0/coding/rogue/src/player.c
 
 CMakeFiles/rogue.dir/src/player.c.i: cmake_force
@@ -179,7 +155,7 @@ CMakeFiles/rogue.dir/src/player.c.o.provides.build: CMakeFiles/rogue.dir/src/pla
 
 CMakeFiles/rogue.dir/src/util.c.o: CMakeFiles/rogue.dir/flags.make
 CMakeFiles/rogue.dir/src/util.c.o: ../src/util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rogue.dir/src/util.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rogue.dir/src/util.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rogue.dir/src/util.c.o   -c /home/kafuuchin0/coding/rogue/src/util.c
 
 CMakeFiles/rogue.dir/src/util.c.i: cmake_force
@@ -203,7 +179,7 @@ CMakeFiles/rogue.dir/src/util.c.o.provides.build: CMakeFiles/rogue.dir/src/util.
 
 CMakeFiles/rogue.dir/src/findpath.c.o: CMakeFiles/rogue.dir/flags.make
 CMakeFiles/rogue.dir/src/findpath.c.o: ../src/findpath.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rogue.dir/src/findpath.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rogue.dir/src/findpath.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rogue.dir/src/findpath.c.o   -c /home/kafuuchin0/coding/rogue/src/findpath.c
 
 CMakeFiles/rogue.dir/src/findpath.c.i: cmake_force
@@ -227,7 +203,7 @@ CMakeFiles/rogue.dir/src/findpath.c.o.provides.build: CMakeFiles/rogue.dir/src/f
 
 CMakeFiles/rogue.dir/src/view.c.o: CMakeFiles/rogue.dir/flags.make
 CMakeFiles/rogue.dir/src/view.c.o: ../src/view.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/rogue.dir/src/view.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rogue.dir/src/view.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rogue.dir/src/view.c.o   -c /home/kafuuchin0/coding/rogue/src/view.c
 
 CMakeFiles/rogue.dir/src/view.c.i: cmake_force
@@ -251,7 +227,7 @@ CMakeFiles/rogue.dir/src/view.c.o.provides.build: CMakeFiles/rogue.dir/src/view.
 
 CMakeFiles/rogue.dir/src/scoreboard.c.o: CMakeFiles/rogue.dir/flags.make
 CMakeFiles/rogue.dir/src/scoreboard.c.o: ../src/scoreboard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/rogue.dir/src/scoreboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/rogue.dir/src/scoreboard.c.o"
 	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rogue.dir/src/scoreboard.c.o   -c /home/kafuuchin0/coding/rogue/src/scoreboard.c
 
 CMakeFiles/rogue.dir/src/scoreboard.c.i: cmake_force
@@ -275,7 +251,6 @@ CMakeFiles/rogue.dir/src/scoreboard.c.o.provides.build: CMakeFiles/rogue.dir/src
 
 # Object files for target rogue
 rogue_OBJECTS = \
-"CMakeFiles/rogue.dir/src/item.c.o" \
 "CMakeFiles/rogue.dir/src/main.c.o" \
 "CMakeFiles/rogue.dir/src/map.c.o" \
 "CMakeFiles/rogue.dir/src/monster.c.o" \
@@ -288,7 +263,6 @@ rogue_OBJECTS = \
 # External object files for target rogue
 rogue_EXTERNAL_OBJECTS =
 
-rogue: CMakeFiles/rogue.dir/src/item.c.o
 rogue: CMakeFiles/rogue.dir/src/main.c.o
 rogue: CMakeFiles/rogue.dir/src/map.c.o
 rogue: CMakeFiles/rogue.dir/src/monster.c.o
@@ -299,7 +273,7 @@ rogue: CMakeFiles/rogue.dir/src/view.c.o
 rogue: CMakeFiles/rogue.dir/src/scoreboard.c.o
 rogue: CMakeFiles/rogue.dir/build.make
 rogue: CMakeFiles/rogue.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable rogue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable rogue"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rogue.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -307,7 +281,6 @@ CMakeFiles/rogue.dir/build: rogue
 
 .PHONY : CMakeFiles/rogue.dir/build
 
-CMakeFiles/rogue.dir/requires: CMakeFiles/rogue.dir/src/item.c.o.requires
 CMakeFiles/rogue.dir/requires: CMakeFiles/rogue.dir/src/main.c.o.requires
 CMakeFiles/rogue.dir/requires: CMakeFiles/rogue.dir/src/map.c.o.requires
 CMakeFiles/rogue.dir/requires: CMakeFiles/rogue.dir/src/monster.c.o.requires

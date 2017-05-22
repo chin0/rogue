@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/kafuuchin0/coding/rogue/src/findpath.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/findpath.c.o"
-  "/home/kafuuchin0/coding/rogue/src/item.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/item.c.o"
   "/home/kafuuchin0/coding/rogue/src/main.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/main.c.o"
   "/home/kafuuchin0/coding/rogue/src/map.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/map.c.o"
   "/home/kafuuchin0/coding/rogue/src/monster.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/monster.c.o"

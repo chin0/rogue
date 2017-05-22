@@ -14,7 +14,7 @@ int main(void)
     char input;
     int success=0;
     generate_map();
-    player_init(get_random_number(20,28),20,get_random_number(3,4),get_random_number(4,8),0);
+    player_init(get_random_number(20,28),20,get_random_number(3,4),get_random_number(5,8),0);
     for(int i = 0; i < 6; i++)
         create_monster();
     while(1)

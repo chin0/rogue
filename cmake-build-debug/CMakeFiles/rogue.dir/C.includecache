@@ -48,8 +48,6 @@ math.h
 ../include/findpath.h
 /home/kafuuchin0/coding/rogue/include/findpath.h
 
-/home/kafuuchin0/coding/rogue/src/item.c
-
 /home/kafuuchin0/coding/rogue/src/main.c
 unistd.h
 -

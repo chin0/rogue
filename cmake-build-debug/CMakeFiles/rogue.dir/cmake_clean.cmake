@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/rogue.dir/src/item.c.o"
   "CMakeFiles/rogue.dir/src/main.c.o"
   "CMakeFiles/rogue.dir/src/map.c.o"
   "CMakeFiles/rogue.dir/src/monster.c.o"

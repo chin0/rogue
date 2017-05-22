@@ -6,8 +6,6 @@ CMakeFiles/rogue.dir/src/findpath.c.o: ../include/map.h
 CMakeFiles/rogue.dir/src/findpath.c.o: ../include/util.h
 CMakeFiles/rogue.dir/src/findpath.c.o: ../src/findpath.c
 
-CMakeFiles/rogue.dir/src/item.c.o: ../src/item.c
-
 CMakeFiles/rogue.dir/src/main.c.o: ../include/map.h
 CMakeFiles/rogue.dir/src/main.c.o: ../include/monster.h
 CMakeFiles/rogue.dir/src/main.c.o: ../include/player.h

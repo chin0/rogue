@@ -150,33 +150,6 @@ src/findpath.c.s:
 	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/findpath.c.s
 .PHONY : src/findpath.c.s
 
-src/item.o: src/item.c.o
-
-.PHONY : src/item.o
-
-# target to build an object file
-src/item.c.o:
-	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/item.c.o
-.PHONY : src/item.c.o
-
-src/item.i: src/item.c.i
-
-.PHONY : src/item.i
-
-# target to preprocess a source file
-src/item.c.i:
-	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/item.c.i
-.PHONY : src/item.c.i
-
-src/item.s: src/item.c.s
-
-.PHONY : src/item.s
-
-# target to generate assembly for a file
-src/item.c.s:
-	$(MAKE) -f CMakeFiles/rogue.dir/build.make CMakeFiles/rogue.dir/src/item.c.s
-.PHONY : src/item.c.s
-
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -378,9 +351,6 @@ help:
 	@echo "... src/findpath.o"
 	@echo "... src/findpath.i"
 	@echo "... src/findpath.s"
-	@echo "... src/item.o"
-	@echo "... src/item.i"
-	@echo "... src/item.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

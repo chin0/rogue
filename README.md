@@ -1,4 +1,4 @@
-# rouge
+# rougelike dungeon escape game
 
 rogue는 대부분의 요소가 랜덤으로 진행되는 콘솔기반 RPG게임이다. 맵에서 최대한 많이 금을 모아 출구로 나가면 된다.
 
@@ -20,13 +20,11 @@ rogue는 절차적 생성이라는 방법을 사용해서 매번 맵을 다르�
 ### 프로젝트 구조
 ```
 include/
-- findpath.h - 길찾기알고리즘&우선순위큐이
-- inventory.h - 인벤토리
+- findpath.h - 길찾기알고리즘&우선순위큐
 - item.h - 아이템 데이터
 - map.h - 맵 자동생성 & 업데이트
 - monster.h - 몬스터 인공지능,
 - util.h - 기타 쓸만한 함수들
-- vector.h - 동적 크기 배열
 src/
 - 위 헤더에 대한 구현
 - main.c

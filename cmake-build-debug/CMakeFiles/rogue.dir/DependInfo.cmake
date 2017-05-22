@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/kafuuchin0/coding/rogue/src/player.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/player.c.o"
   "/home/kafuuchin0/coding/rogue/src/util.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/util.c.o"
   "/home/kafuuchin0/coding/rogue/src/vector.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/vector.c.o"
+  "/home/kafuuchin0/coding/rogue/src/view.c" "/home/kafuuchin0/coding/rogue/cmake-build-debug/CMakeFiles/rogue.dir/src/view.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -174,10 +174,6 @@ void findpath(int target)
     cur_x = src.x;
     cur_y = src.y;
 
-
-
-    dest->is_connected = 1;
-
     PriorityQueue* open_list = pq_create(3);
     f = huristic(cur_x+1,cur_y,*dest);
 
@@ -213,9 +209,13 @@ void findpath(int target)
             f = huristic(cur_x,cur_y-1,*dest);
             pq_enqueue(open_list,(PQNode){f,cur_x,cur_y-1});
         }
-        maps[cur_y][cur_x] = 2;
+        maps[cur_y][cur_x] = TUNNEL;
         i++;
     }
-    maps[src.y][src.x] = 1;
+    if(i <= 100) {
+        dest->is_connected = 1;
+    }
+    maps[src.y][src.x] = DOOR;
+    maps[dest->y][dest->x] = DOOR;
     pq_destroy(open_list);
 }

@@ -91,6 +91,8 @@ time.h
 /home/kafuuchin0/coding/rogue/include/player.h
 
 /home/kafuuchin0/coding/rogue/src/util.c
+termios.h
+-
 ../include/util.h
 /home/kafuuchin0/coding/rogue/include/util.h
 
@@ -101,4 +103,14 @@ stdlib.h
 -
 ../include/vector.h
 /home/kafuuchin0/coding/rogue/include/vector.h
+
+/home/kafuuchin0/coding/rogue/src/view.c
+../include/util.h
+/home/kafuuchin0/coding/rogue/include/util.h
+../include/map.h
+/home/kafuuchin0/coding/rogue/include/map.h
+../include/player.h
+/home/kafuuchin0/coding/rogue/include/player.h
+../include/monster.h
+/home/kafuuchin0/coding/rogue/include/monster.h
 

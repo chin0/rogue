@@ -40,3 +40,9 @@ CMakeFiles/rogue.dir/src/util.c.o: ../src/util.c
 CMakeFiles/rogue.dir/src/vector.c.o: ../include/vector.h
 CMakeFiles/rogue.dir/src/vector.c.o: ../src/vector.c
 
+CMakeFiles/rogue.dir/src/view.c.o: ../include/map.h
+CMakeFiles/rogue.dir/src/view.c.o: ../include/monster.h
+CMakeFiles/rogue.dir/src/view.c.o: ../include/player.h
+CMakeFiles/rogue.dir/src/view.c.o: ../include/util.h
+CMakeFiles/rogue.dir/src/view.c.o: ../src/view.c
+

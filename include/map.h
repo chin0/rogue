@@ -3,8 +3,8 @@
 
 #include "util.h"
 
-#define MAX_X 90
-#define MAX_Y 30
+#define MAX_X 100
+#define MAX_Y 40
 
 #define ROOM_MAX_Y 9
 #define ROOM_MAX_X 18
@@ -51,7 +51,9 @@ extern int maps[][MAX_X];
 extern door door_info[];
 extern int max_room_number;
 extern room* room_array[];
-
+extern int clear_stage;
+extern int stage;
+extern int turn;
 void updateParam(int room);
 void initRooms();
 int isBlock();

@@ -4,7 +4,6 @@
 #include "../include/map.h"
 #include "../include/player.h"
 #include "../include/monster.h"
-#define SET_TERM_SIZE(x,y) system("mode con:cols="#x " lines="#y)
 
 extern int maps[][MAX_X];
 
@@ -13,15 +12,13 @@ extern int maps[][MAX_X];
 int main(void)
 {
     char input;
-    int success;
+    int success=0;
     generate_map();
-    player_init(12,20,3,0);
-    create_monster();
-    create_monster();
-    create_monster();
+    player_init(get_random_number(20,28),20,get_random_number(3,4),get_random_number(4,8),0);
+    for(int i = 0; i < 6; i++)
+        create_monster();
     while(1)
     {
-        int collected = 0;
         system("clear");
         player_info();
 #ifdef DEBUG
@@ -38,21 +35,29 @@ int main(void)
                 printf("bye!\n");
                 break;
             }
+            continue;
         }
         if(input == 'e') {
-            if(in_exit){
+            if(in_exit && kill > 3 && _player.gold > 20){
                 success = 1;
                 break;
+            } else {
+                printf("몬스터를 더 처리하거나 금을 더 모으세요..!(아무키나 누르세요.)");
+                getch();
             }
         } else {
+            turn++;
             player_move(input);
-            collected = 0;
+            attack();
         }
-        attack();
+        if(player_death())
+            break;
     }
     if(success) {
-        system("clear");
-        printf("성공적으로 탈출했습니다!\n");
+        system("clear\n");
+        printf("%d턴만에 성공적으로 탈출했습니다!\n",turn);
+        printf("모은금:%d\n", _player.gold);
+    } else {
         printf("모은금:%d\n", _player.gold);
     }
 

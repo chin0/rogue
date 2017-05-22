@@ -2,6 +2,8 @@
 #include "../include/findpath.h"
 
 
+int turn = 0;
+
 int maps[MAX_Y][MAX_X];
 door door_info[36];
 int door_count;
@@ -63,7 +65,7 @@ void initRooms()
 
     check = _room->check;
     for(int i = 0; i < door_num; i++){
-        int temp = get_random_number(1,4);
+        int temp = get_random_number(0,3);
 
         if(check[temp])
             continue;
@@ -164,7 +166,11 @@ void drawRoom(room _room)
 
 
 void generate_map() {
-    updateParam(8);
+    for(int i = 0 ; i < MAX_Y; i++){
+        for(int j = 0; j < MAX_X; j++)
+            maps[i][j] = 0;
+    }
+    updateParam(9);
     while (room_number != max_room_number) {
 
         initRooms();
@@ -187,58 +193,3 @@ void generate_map() {
     maps[_exit_y][_exit_x] = EXIT;
 }
 
-void print_map()
-{
-    for(int i = 0; i < MAX_Y; i++){
-        for(int j = 0; j < MAX_X; j++){
-            switch(maps[i][j]){
-                case PLAYER:
-                    printf("@");
-                    break;
-                case DOOR:
-                    printf("\u2592");
-                    break;
-                case TUNNEL:
-                    printf("\u2591");
-                    break;
-                case WALL:
-                    printf("\u2588");
-                    break;
-                case ROOM_TILE:
-                    printf("\u2593");
-                    break;
-                case MON_MEGUMI:
-                    printf("M");
-                    break;
-                case MON_ERIRI:
-                    printf("E");
-                    break;
-                case MON_UTAHA:
-                    printf("U");
-                    break;
-                case MON_MITCHIRU:
-                    printf("m");
-                    break;
-                case MON_CHINO:
-                    printf("C");
-                    break;
-                case MON_RIKKA:
-                    printf("R");
-                    break;
-                case MON_TOMORI:
-                    printf("T");
-                    break;
-                case GOLD:
-                    printf("%%");
-                    break;
-                case EXIT:
-                    printf("^");
-                    break;
-                default:
-                    printf(" ");
-                    break;
-            }
-        }
-        printf("\n");
-    }
-}

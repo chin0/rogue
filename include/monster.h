@@ -19,6 +19,7 @@ typedef struct
     int drop_gold;
     char *name;
     char map_initialis;
+    char overwritten;
 } monster;
 
 extern int in_exit;

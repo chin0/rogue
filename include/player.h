@@ -3,9 +3,13 @@
 
 typedef struct{
     int hp;
+    int max_hp;
     int hungry;
-    int attack;
+    int max_hungry;
+    int attack_min;
+    int attack_max;
     int exp;
+    int max_exp;
     int level;
     int gold;
     int x;
@@ -13,12 +17,13 @@ typedef struct{
 } player;
 
 extern player _player;
-
-void player_init(int hp,int hungry, int attack, int exp);
+extern int kill;
+void player_init(int hp,int hungry, int attack_min,int attack_max,int exp);
 void player_move(char key);
 void player_info();
-int is_death();
+int player_death();
 int destroy_player();
+void level_up();
 int collect();
 
 

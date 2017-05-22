@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/rogue.dir/src/util.c.o"
   "CMakeFiles/rogue.dir/src/findpath.c.o"
   "CMakeFiles/rogue.dir/src/vector.c.o"
+  "CMakeFiles/rogue.dir/src/view.c.o"
   "rogue.pdb"
   "rogue"
 )
